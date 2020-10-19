@@ -1,0 +1,16 @@
+server.port: 8090
+my:
+  greeting: "Hello World: ${app.desc}"
+  list:
+    values: One,Two,Three
+app:
+  name: My App
+  desc: Welcome to ${app.name}
+dbValues: "{url:'someUrl',usrnm:'nick',pswd:'pnick'}"
+
+db:
+  connection: "{url:'someUrl',usrnm:'nick',pswd:'pnick'}"
+  host: 127.0.0.1
+  port: 1200
+
+management.endpoints.web.exposure.include: "*"
