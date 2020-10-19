@@ -14,3 +14,5 @@ db:
   port: 1200
 
 management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: test

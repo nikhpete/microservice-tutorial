@@ -1,0 +1,6 @@
+server.port: 8060
+
+db:
+  connection: "{url:'testUrl',usrnm:'nick',pswd:'pnick'}"
+  host: 129.0.0.1
+  port: 2400
